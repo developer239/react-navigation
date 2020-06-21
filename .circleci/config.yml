@@ -41,7 +41,7 @@ jobs:
       - attach_project
       - run:
           name: Lint files
-          command: yarn lint
+          command: yarn lint --fix
       - run:
           name: Typecheck files
           command: yarn typescript
